@@ -1,3 +1,44 @@
+li a {
+    float: left;
+    display: block;
+    padding: 8px 16px;
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
 h1 {
     text-align: center;
 }
