@@ -1,6 +1,11 @@
+h1 {
+    text-align: center;
+}
+
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+    text-align: center;
 }
 
 p {
