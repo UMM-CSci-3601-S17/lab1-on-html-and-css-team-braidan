@@ -40,6 +40,7 @@ a:active {
 }
 
 h1 {
+    color: white;
     text-align: center;
 }
 
@@ -62,4 +63,10 @@ img {
 
 .centerText {
     text-align: center;
+}
+
+.transbox {
+    margin: 1%;
+    background-color: black;
+    opacity: 0.8;
 }
