@@ -13,7 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: aquamarine;
+    background-color: beige;
 }
 
 .horizontal {
@@ -24,11 +24,11 @@ ul {
 }
 
 a:link {
-    color: red;
+    color: white;
 }
 
 a:visited {
-    color: purple;
+    color: black;
 }
 
 a:hover {
@@ -42,6 +42,7 @@ a:active {
 h1 {
     color: white;
     text-align: center;
+    font-size: 350%
 }
 
 h2 {
@@ -50,8 +51,10 @@ h2 {
     text-align: center;
 }
 
-p {
-    font-family: monospace;
+h3 {
+    color: red;
+    text-align: center;
+
 }
 
 img {
@@ -66,7 +69,7 @@ img {
 }
 
 .transbox {
-    margin: 1%;
+    margin: 5%;
     background-color: black;
     opacity: 0.8;
 }
