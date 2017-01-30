@@ -69,8 +69,36 @@ img {
 }
 
 .transbox {
-    margin: 5%;
+    margin: 2% 7%;
     background-color: black;
     opacity: 0.8;
 }
 
+ ol {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    font-size: 200%;
+    position: relative;
+    left: 5%;
+    width: 30%;
+}
+ul2 {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    font-size: 200%;
+    position: absolute;
+    left: 80%;
+
+}
+
+.border {
+    border-bottom: 2px solid white;
+    width: 270%
+}
+
+.border2 {
+    border-bottom: 2px solid white;
+    width: 10%;
+}
