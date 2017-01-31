@@ -48,7 +48,6 @@ h1 {
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
-    text-align: center;
 }
 
 h3 {
@@ -101,4 +100,11 @@ ul2 {
 .border2 {
     border-bottom: 2px solid white;
     width: 10%;
+}
+
+#saying {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: grey;
+    font-size: 175%;
+    text-align: center;
 }
