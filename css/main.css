@@ -108,3 +108,13 @@ ul2 {
     font-size: 175%;
     text-align: center;
 }
+ .white{
+     color: white;
+ }
+
+.container2 {
+    display: inline-block;
+    width: 32%;
+    height: auto;
+    text-align: center;
+}
