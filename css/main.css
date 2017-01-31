@@ -4,8 +4,6 @@ li a {
     padding: 8px 16px;
     width: 30%;
     text-decoration: none;
-    text-align: center;
-
 }
 
 ul {
@@ -23,11 +21,7 @@ ul {
     overflow: hidden;
 }
 
-a:link {
-    color: black;
-}
-
-a:visited {
+a:link,a:visited {
     color: black;
 }
 
@@ -40,8 +34,6 @@ a:active {
 }
 
 h1 {
-    color: white;
-    text-align: center;
     font-size: 350%
 }
 
@@ -52,8 +44,6 @@ h2 {
 
 h3 {
     color: red;
-    text-align: center;
-
 }
 
 img {
@@ -63,7 +53,7 @@ img {
     margin-right: auto;
 }
 
-.centerText {
+.centerText,h1,h3,#saying,.cotainer2,li a {
     text-align: center;
 }
 
@@ -75,7 +65,6 @@ img {
 
  ol {
     list-style-type: none;
-    color: white;
     text-align: left;
     font-size: 200%;
     position: relative;
@@ -84,7 +73,6 @@ img {
 }
 ul2 {
     list-style-type: none;
-    color: white;
     text-align: left;
     font-size: 200%;
     position: absolute;
@@ -106,9 +94,8 @@ ul2 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: grey;
     font-size: 175%;
-    text-align: center;
 }
- .white{
+ .white, ul2,ol,h1{
      color: white;
  }
 
@@ -116,5 +103,4 @@ ul2 {
     display: inline-block;
     width: 32%;
     height: auto;
-    text-align: center;
 }
