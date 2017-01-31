@@ -39,7 +39,6 @@ h1 {
 
 h2 {
     color: red;
-    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
 h3 {
@@ -53,7 +52,7 @@ img {
     margin-right: auto;
 }
 
-.centerText,h1,h3,#saying,.container2,li a {
+.centerText,h1,h3,#saying,.container2,li a, #specialFont {
     text-align: center;
 }
 
@@ -103,4 +102,13 @@ ul2 {
     display: inline-block;
     width: 32%;
     height: auto;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("Milkshake.ttf");
+}
+
+#specialFont {
+    font-family: myFirstFont, cursive;
 }
