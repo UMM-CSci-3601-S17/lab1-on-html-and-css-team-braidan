@@ -98,6 +98,11 @@ ul2 {
      color: white;
  }
 
+ .whitecenter{
+     color:white;
+     text-align: center;
+ }
+
 .container2 {
     display: inline-block;
     width: 32%;
@@ -111,4 +116,5 @@ ul2 {
 
 #specialFont {
     font-family: myFirstFont, cursive;
+    font-size: 200%;
 }
